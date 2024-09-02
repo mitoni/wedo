@@ -53,6 +53,8 @@ class WedoButton extends LitElement {
 			--transition: all var(--duration-rg) ease-in-out;
 
 			display: inline-flex;
+			justify-content: start;
+			align-items: center;
 			position: relative;
 
 			padding: var(--spacing-sm) calc(2 * var(--spacing-sm));
@@ -63,25 +65,13 @@ class WedoButton extends LitElement {
 			border: 1px solid var(--green);
 
 			transition: var(--transition);
-		}
 
-		a::before {
-			content: '';
-
-			position: absolute;
-			inset: 0;
-
-			background: linear-gradient(hsl(130, 58%, 46%), var(--green));
-
-			border-radius: var(--rounding-full);
-			transition: var(--transition);
-
-			opacity: 1;
-			z-index: -1;
+			background-color: var(--green);
 		}
 
 		a:hover {
 			color: var(--green);
+			background-color: var(--white);
 		}
 
 		a:hover::before {

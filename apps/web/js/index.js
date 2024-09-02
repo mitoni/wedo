@@ -236,8 +236,8 @@ class PointTake extends LitElement {
 	constructor(width, height) {
 		super();
 
-		this.x = width * 0.1 + Math.random() * width * 0.9;
-		this.y = height * 0.1 + Math.random() * height * 0.9;
+		this.x = width * 0.1 + Math.random() * width * 0.8;
+		this.y = height * 0.1 + Math.random() * height * 0.8;
 
 		this.icon = this.icons[Math.floor(Math.random() * this.icons.length)];
 		this.animate();
@@ -317,8 +317,8 @@ class PointGive extends LitElement {
 	 * @param {number} height
 	 * */
 	computePosition(width, height) {
-		this.x = width * 0.1 + Math.random() * width * 0.9;
-		this.y = height * 0.1 + Math.random() * height * 0.9;
+		this.x = width * 0.1 + Math.random() * width * 0.8;
+		this.y = height * 0.1 + Math.random() * height * 0.8;
 	}
 
 	/**
