@@ -1,0 +1,20 @@
+:root {
+	--y-primary: var(--y-green);
+	--y-primary-rgb: var(--y-green-rgb);
+	--y-heading-color: var(--y-green-darken);
+
+	--y-shadow-button: none;
+	--y-shadow-button-inset: none;
+
+	--y-border-radius-sm: 0.25rem;
+	--y-border-radius: 0.5rem;
+	--y-border-radius-lg: 0.875rem;
+	--y-border-radius-xl: 1rem;
+	--y-border-radius-xxl: 2rem;
+	--y-border-radius-2xl: var(--y-border-radius-xxl);
+}
+
+.y-card-header > .y-tab-list,
+.y-tab-list-card {
+	margin-top: calc(var(--y-card-cap-padding-y) * -1 + var(--y-border-radius));
+}

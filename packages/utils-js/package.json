@@ -1,0 +1,5 @@
+{
+  "name": "@wedo/utils-js",
+  "module": "src/index.ts",
+  "type": "module"
+}
