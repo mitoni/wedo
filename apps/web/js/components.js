@@ -34,7 +34,7 @@ class WedoNavbar extends LitElement {
 		return html`
 			<nav>
 				<span class="logo">?What do we do with you</span>
-				<wedo-button href="/join" class="button"
+				<wedo-button href="/join.html" class="button"
 					><span>Join the Beta</span><span>🧪</span></wedo-button
 				>
 			</nav>
